@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/logo.jpeg" type="image/icon type">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <a href="#" class="logo">
+                Portfolio
+            </a>
+            <ul class="menu">
+                <li class="nav-item"><a class="nav-links" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-links" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-links" href="#stacks">Stack</a></li>
+                <li class="nav-item"><a class="nav-links" href="#contact">Contact</a></li>
+                <button class="close-btn">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </ul>
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <!--HERO SECTION-->
+        <section id="home">
+            <div class="container">
+                <div class="hero-box grid">
+                    <div class="hero-box__img">
+                        <img src="./images/hero-img.jpg" alt="Christian Jay Sabas">
+                    </div>
+                    <div class="hero-box__content">
+                        <h1>Hi! I am <span class="orange-color">Christian Jay Sabas</span> <br>
+                            Front-end Web Developer <br> from General Santos, Philippines
+                        </h1>
+                        <button class="custom-btn about-btn">
+                            <a href="#about">About Me</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ABOUT SECTION-->
+        <section id="about">
+            <div class="container">
+                <div class="about-container">
+                    <div class="about-heading__box">
+                        <h3>About Me</h3>
+                    </div>
+                    <div class="about-box grid">
+                        <div class="about-box__img">
+                            <img src="./images/aboutme.jpg" alt="Christian Jay Sabas">
+                        </div>
+                        <div class="about-box__content">
+                            <h3 class="orange-color">My Story</h3>
+                            <p>I am Christian Jay G. Sabas living in the Tuna Capital of the Philippines, General Santos City.
+                                I was born and raised in General Santos City. I am the bread winner of our family. When I was a child I really love
+                                playing video games and many days goes by I'm starting to be curious about the games that they developed. So, I decided that
+                                I will take a step to become a Game Developer. I started learning programming in STI College and I was not able to get any
+                                good knowledge about programming languages. I was able to get knowledge about programming languages when I was
+                                working on myself to understand and track the outputs of the application or system and when I'm in College I never get understand
+                                the game developing. It was hard. Then, I become curious again about making a website and I decided to take this path for my future.
+                            </p>
+                            <div class="about-titles grid">
+                                <div class="skills">
+                                    <h3>Skills</h3>
+                                    <p>
+                                        <span class="orange-color">UI/UX</span> <br>
+                                        Designing Web Interfaces
+                                    </p>
+                                    <p>
+                                        <span class="orange-color">Web Development</span> <br>
+                                        Web App Development
+                                    </p>
+                                    <p>
+                                        <span class="orange-color">Data Entry</span> <br>
+                                        Data Scraping
+                                    </p>
+                                </div>
+                                <div class="experience">
+                                    <h3>Experience</h3>
+                                    <p>
+                                        <span class="orange-color">09/2022 - 10/2022</span> <br>
+                                        Wix Developer
+                                    </p>
+                                    <p>
+                                        <span class="orange-color">09/2022 - 10/2022</span> <br>
+                                        Lead Generation Specialist
+                                    </p>
+                                </div>
+                                <div class="education">
+                                    <h3>Education</h3>
+                                    <p>
+                                        <span class="orange-color">2006 - 2012</span> <br>
+                                        Calumpang Central SDA Elementary School
+                                    </p>
+                                    <p>
+                                        <span class="orange-color">2012 - 2015</span> <br>
+                                        General Santos City National High School
+                                    </p>
+                                    <p>
+                                        <span class="orange-color">2015 - 2018</span> <br>
+                                        Passionist Sisters' School
+                                    </p>
+                                    <p>
+                                        <span class="orange-color">2018 - 2022</span> <br>
+                                        STI College - General Santos
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--STACK SECTION-->
+        <section id="stacks">
+            <div class="container">
+                <div class="stack-container">
+                    <h3>My Stacks</h3>
+                    <ul class="stack-grid grid">
+                        <div class="stack-titles">
+                            <p>HTML</p>
+                        </div>
+                        <div class="stack-titles">
+                            <p>CSS</p>
+                        </div>
+                        <div class="stack-titles">
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="stack-titles">
+                            <p>PHP</p>
+                        </div>
+                        <div class="stack-titles">
+                            <p>DATABASE MANAGEMENT</p>
+                        </div>
+                        <div class="stack-titles">
+                            <p>BOOTSTRAP</p>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--CONTACT SECTION-->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-container">
+                    <form action="">
+                        <h3>Contact me</h3>
+                        <div class="user-contact grid">
+                            <div class="form-group">
+                                <input type="text" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+                            </div>
+                            <button type="submit" class="custom-btn submit-btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright-container">
+            <div class="copyright-box">
+                <p>Copyright &copy; Christian Jay Sabas.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/aa5e707bac.js"></script>
+</html>
